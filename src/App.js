@@ -48,7 +48,11 @@ export default function App() {
         return (
           <ul
             onClick={clickHandler}
-            style={{ display: "inline", fontSize: "2em", cursor: "pointer" }}
+            style={{
+              display: "inline",
+              fontSize: "2em",
+              cursor: "pointer"
+            }}
           >
             {item}
           </ul>
