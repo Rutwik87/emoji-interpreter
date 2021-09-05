@@ -42,7 +42,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>Know the Country</h1>
-      <input onChange={inputHandler}></input>
+      <input onChange={inputHandler} placeholder="Enter Flag Emoji"></input>
       <h3>Click on below flags to know its Country</h3>
       {flagList.map(function (item) {
         return (
